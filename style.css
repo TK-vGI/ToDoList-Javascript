@@ -1,0 +1,60 @@
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+h1 {
+    color: #008B8B;
+    font-size: 24pt;
+    margin: 30px 30% ;
+}
+
+input {
+    /* dont know how to clip the "Add" button to the right side border of the Input field */
+    border: 2px solid #008B8B;
+    height: 36px;
+    width: 50%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-left: 20%;
+    font-size: 12pt;
+}
+
+button {
+    /* dont know how to clip the "Add" button to the right side border of the Input field */
+    background-color: #008B8B;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 40px;
+    width: 50px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12pt;
+}
+
+.completeButton {
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 30px;
+    width: auto;
+    color: darkslategray;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12pt;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+ul {
+    margin-left: 5% ;
+    list-style: circle;
+    }
+
+li {
+    color: black;
+    font-size: 14pt;
+}
